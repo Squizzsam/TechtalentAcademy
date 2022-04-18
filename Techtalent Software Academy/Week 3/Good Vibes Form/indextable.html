@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</header>
+
+<body>
+ 
+    <h1 id="title">Good Vibes Form</h1>
+
+    <main class="master-div-style">
+
+      <form action="results.html" method="get">
+        <table>
+          <tr><td colspan="2"><p> Tell us something positive that happened to you today.</p></td>
+          <br>
+          </tr>
+
+          <tr>
+            <td><label for="name"class="label">Name:</label></td>
+            <td><input id=" " type="text" name="name" placeholder="What is your name?"></td>
+          </tr><br>
+            
+          <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input type="email" name="email" id="email" placeholder="Enter your email address"></td>
+          </tr><br>
+          <tr>
+          <td><label for="good">On a scale of 1-10, how good was it?</label></td>
+          <td><input type="number" name="good" id="good" min="1" max="10" step="1" placeholder="Enter a number between 1 and 10"></td>
+          </tr><br>
+
+          <tr>
+            <td><label for="where">Where did it happen?</label></td>
+            <td><select name="where" id="where">
+              <option value="home">At home</option>
+              <option value="work">At work</option>
+              <option value="social">Out Socialising</option>
+              <option value="errand">Out running errands</option>
+            </select></td>
+          </tr><br>
+
+          <tr>
+            <td><label for="time">At what time of day did it happen?</label></td>
+
+            <div>
+              <td><label for="morning">Morning</label>
+              <input type="radio" name="time" id="morning" class="user-selection">
+            </div>
+
+            <div>
+              <label for="afternoon">Afternoon</label>
+              <input type="radio" name="time" id="afternoon" class="user-selection">
+            </div>
+
+            <div>
+              <label for="evening">Evening</label>
+              <input type="radio" name="time" id="evening"class="user-selection">
+            </td>
+            </div>
+            </tr><br>
+
+          <tr><section id="emotiontick">
+
+            <td><div><label for="emotion">What emotions did you experience?<br>select all that apply?</label></td>
+              <td><label for="excited">Excited</label>
+              <input type="radio" name="emotion" id="excited" class="user-selection">
+            </div>
+            <div>
+              <label for="humbled">Humbled</label>
+              <input type="radio" name="emotion" id="humbled" class="user-selection">
+            </div>
+            <div>
+              <label for="elated">Elated</label>
+              <input type="radio" name="emotion" id="elated" class="user-selection">
+              </div>
+              <div>
+                <label for="Loved">Loved</label>
+                <input type="radio" name="emotion" id="loved" class="user-selection">
+              </div>
+              <div>
+                <label for="Enthusiastic">Enthusiastic</label>
+                <input type="radio" name="enthusiastic" id="loved"class="user-selection">
+              </div></td>
+
+
+
+          </tr></section>
+
+        </table>
+      </form>
+
+
+
+    </main>
+
+</body>
+
+</html>

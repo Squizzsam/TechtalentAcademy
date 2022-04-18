@@ -5,8 +5,104 @@
 </header>
 
 <body>
-  <main>
+ 
     <h1 id="title">Good Vibes Form</h1>
+
+    <main class="master-div-style">
+
+      <form action="results.html" method="get">
+        
+         <p> Tell us something positive that happened to you today.</p>
+          <br>
+          
+
+          <section>
+            <label for="name"class="fields">Name:</label>
+            <input class="input-fields" type="text" name="name" placeholder="What is your name?">
+          </section><!--this took me ages to figure out ;'( im so stubborn'-->
+            <br>
+            
+          <section>
+            <label for="email"class="fields">Email:</label>
+            <input class="input-fields" type="email" name="email" id="email" placeholder="Enter your email address">
+          </section>
+          <br>
+          <section>
+          
+            <label for="good"class="fields">On a scale of 1-10, how good was it?</label>
+            <input class="input-fields" type="number" name="good" id="good" min="1" max="10" step="1" placeholder="Enter a number between 1 and 10">
+          </section>
+          <br>
+          <section>
+          
+            <label for="where"class="fields">Where did it happen?</label>
+            <select class="dropdown" name="where" id="where">
+              <option value="home">At home</option>
+              <option value="work">At work</option>
+              <option value="social">Out Socialising</option>
+              <option value="errand">Out running errands</option>
+            </select>
+          
+          </section>
+          <br>
+          <section id="time">
+            <label for="time"class="fields">At what time of day did it happen?</label>
+
+            <div>
+                <label for="morning" class="labels">Morning</label>
+              <input type="radio" name="time"  id="morning" >
+            </div>
+
+            <div>
+              <label for="afternoon" class="labels">Afternoon</label>
+              <input type="radio" name="time"  id="afternoon" >
+            </div>
+
+            <div>
+              <label for="evening"class="labels">Evening</label>
+              <input type="radio" name="time"  id="evening">
+            
+            </div>
+            <br>
+          </section>
+          <section id="emotiontick">
+
+            <div><label for="emotion" class="fields">What emotions did you experience?<br>select all that apply?</label></div>
+            <div><label for="excited"class="labels">Excited</label>
+              <input type="radio" name="emotion" id="excited" >
+            </div>
+            <div>
+              <label for="humbled" class="labels">Humbled</label>
+              <input type="radio" name="emotion" id="humbled" >
+            </div>
+            <div>
+              <label for="elated" class="labels">Elated</label>
+              <input type="radio" name="emotion" id="elated" >
+              </div>
+              <div>
+                <label for="Loved" class="labels">Loved</label>
+                <input type="radio" name="emotion" id="loved" >
+              </div>
+              <div>
+                <label for="Enthusiastic" class="labels">Enthusiastic</label>
+                <input type="radio" name="enthusiastic" id="loved">
+              </div><!--it's not perfect, but tried to emulate the styling, i kind of like it-->
+          </section>
+            <br>
+          <section id="describe">
+            <label for="describe"class="labels">Please describe your positive experience?</label>
+            <textarea class="input_fields" name="describe" id="describe" cols="30" rows="10"placeholder="Enter your experiences here..."></textarea>
+
+          </section>
+
+          <button class="button" type="submit">Submit</button>
+
+        
+      </form>
+
+
+
+    </main>
 
 </body>
 
