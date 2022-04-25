@@ -1,0 +1,127 @@
+
+*{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: ivory;
+    color: rgb(80, 49, 27);
+}
+
+h1 {
+    
+    color: #d991b5;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 25px;
+}
+
+h2 {
+    color:#8fcbd9;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 25px;
+}
+
+h3 {
+    color:#7ad979;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 25px;
+}
+
+span {
+    color: #906edb;
+    font-size: 18px;
+    font-weight: 200;
+
+}
+
+p {
+    color: rgb(80, 49, 27);
+    font-size: 14px;
+}
+
+nav {
+    float: right;
+    background-color: lemonchiffon;
+    padding-right: 50px;
+
+}
+
+.container {size: 85%;
+
+
+
+}
+
+.centerimg {
+    display: block;
+    text-align: center;
+    padding: 50px;
+  }
+
+
+.mission {
+    color: ivory;
+    background-color: #d991b5;
+    font-size: 50px;
+    padding: 20px;
+    text-align: center;
+}
+table {
+    size: 100%;
+    text-align: center;
+}
+
+table, th, td {
+    border: 5px solid #906edb;
+  }
+
+th, td {
+    text-align: center;
+    padding: 30px;
+
+}
+.packaging {
+    background-color: #8fcbd9;
+    color: ivory;
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+    
+  
+
+}
+
+.submit {
+    display:block;
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 150px;
+    
+    }
+
+.button {
+    font-size: 1em;
+    background-color:#7ad979;
+    color: white;
+    border: 0px solid;
+    border-radius: 4px;
+    height: 40px;
+    width: 80px;
+    margin: 10px;
+  }
+
+
+
+.radio {
+    position: relative;
+    left: -43px;
+    margin-left: 10px;
+    display: block;
+    padding-bottom: 10px;
+  }
+footer {
+    text-align: center;
+    border-top: #d991b5;
+    border-top-width: 5px;
+    border-top-style: solid;
+}

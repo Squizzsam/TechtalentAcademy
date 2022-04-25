@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Glutenfree</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="container"><!--watched a youtube video used this to bring everything away from the far edges of the screen, with a css class-->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><h1>Gotta be Glutenfree</h1></a></li>
+                <li><a href="cupcakes.html"><h2>Cupcakes</h2></a></li>
+                <li><a href="cookies.html"><h2>Cookies</a></h2></li>
+                <li><a href="contact.html"><h2>Contact us</h2></a></li>
+
+            </ul>
+        </nav>
+    </header> 
+    
+    <main>
+       <div><p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo cum recusandae saepe quia, modi illum velit tenetur neque optio voluptatem 
+            expedita natus voluptas dolore aperiam at, cumque eos harum beatae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nihil 
+            ipsum iusto eos ad nisi unde possimus tempore quae eaque commodi mollitia, aut est deserunt, quasi illum exercitationem dolor reprehenderit!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo cum recusandae saepe quia, modi illum velit tenetur neque optio voluptatem 
+            expedita natus voluptas dolore aperiam at, cumque eos harum beatae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nihil 
+            ipsum iusto eos ad nisi unde possimus tempore quae eaque commodi mollitia, aut est deserunt, quasi illum exercitationem dolor reprehenderit!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo cum recusandae saepe quia, modi illum velit tenetur neque optio voluptatem 
+            expedita natus voluptas dolore aperiam at, cumque eos harum beatae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nihil 
+            ipsum iusto eos ad nisi unde possimus tempore quae eaque commodi mollitia, aut est deserunt, quasi illum exercitationem dolor reprehenderit!</p>
+        </div>
+                                            <!--added div around table and a class, to attempt a new bg in css-->
+        <div class="orderform"> <!--I started with the table and wrapped the other elements in, to get a structured grid layout-->
+            <form action="/ordercupcakes.html" method="post">
+                <table>
+                    <tr>
+                        <td><img src="img/cupcakevanillabean.jpg" height="65%" width="65%" alt="vanilla bean cupcake"><br>
+                            <label for="amountvcupcake">Vanilla Bean Cupcake</label><br>
+                            <input type="number" name="amountvcupcake" id="amountvcupcake" step="1" placeholder="How many?">
+                        </td>
+
+                        <td><img src="img/cupcakewhitechoc.jpg" height="65%" width="65%" alt="white choc cupcake"><br>
+                            <label for="amountwchoccupcake">White Chocolate Cupcake</label><br>
+                            <input type="number" name="amountwhitechip" id="amountwchoccupcake" step="1" placeholder="How many?">
+                        </td>
+
+                        <td><img src="img/cupcakechocolate.jpg" height="65%" width="65%" alt="chocolate cupcake"><br>
+                            <label for="amountchoccupcake">Chocolate Cupcake</label><br>
+                            <input type="number" name="amountchoccupcake" id="amountchoccupcake" step="1" placeholder="How many?">
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td><img src="img/cupcakemojito.jpg" height="65%" width="65%" alt="Mojito Cupcake"><br>
+                            <label for="amountmojitocupcake">Mojito Cupcake</label><br>
+                            <input type="number" name="amountmojitocupcake" id="amountmojitocupcake" step="1" placeholder="How many?">
+                        </td>
+                                <!--added a lil extra white space to make things clearer-->
+                        <td><img src="img/peanutbuttercupcake.jpg" height="65%" width="65%" alt="Peanut Butter Cupcake"><br> 
+                            <label for="amountpeanutcupcake">Peanut Butter Cupcake</label><br>
+                            <input type="number" name="amountpeanutcupcake" id="amountpeanutcupcake" step="1" placeholder="How many?">
+                        </td>
+
+                        <td><img src="img/cupcakelemon.jpg" height="65%" width="65%" alt="Lemon Cupcake"><br> 
+                            <label for="amountlemoncupcake">Lemon Cupcake</label><br>
+                            <input type="number" name="amountlemoncupcake" id="amountlemoncupcake" step="1" placeholder="How many?">
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td><img src="img/cupcakeredvelvet.jpg" height="65%" width="65%" alt="red velvet cupcake"><br> 
+                            <label for="amountredvelvetcupcake">Red Velvet Cupcake</label><br>
+                            <input type="number" name="amountredvelvetcupcake" id="amountredvelvetcupcake" step="1" placeholder="How many?">
+                        </td>
+
+                        <td><img src="img/cupcakefunfetti.jpg" height="65%" width="65%" alt="funfetti cupcake"><br> 
+                            <label for="amountfunfetticupcake">Funfetti Cupcake</label><br>
+                            <input type="number" name="amountfunfetticupcake" id="amountfunfetticupcake" step="1" placeholder="How many?">
+                        </td>
+
+                        <td><img src="img/cupcakestrawberry.jpg" height="65%" width="65%" alt="strawberry cupcake"><br> 
+                            <label for="amountstrawberrycupcake">Strawberry Cupcake</label><br>
+                            <input type="number" name="amountstrawberrycupcake" id="amountstrawberrycupcake" step="1" placeholder="How many?">
+                        </td>
+
+                    </tr>
+                </table>
+                
+                <section class="packaging">
+                     <label for="packaging">What type of packaging?</label><br><br>
+            
+                     <div class="radio">  
+                         <div ><label for="single"class="labels">Singular</label></div>
+                         <input type="radio" name="packaging"  id="singular" >
+                       </div>
+            
+                       <div class="radio">
+                       <div><label for="multi">Multiple</label></div>
+                       <input type="radio" name="packaging"  id="multiple" >
+                    </div>
+                  </section>
+
+                 <section class="submit">
+                      <button class="button" type="submit">Submit</button>
+                </section>
+                
+            </form>
+        </div>
+    </main>
+    <footer>
+        <h2>Company Name</h2><h3>Place:Location</h3><h1>contacts phone contacts</h1>
+    </footer>
+</body>
+</html>

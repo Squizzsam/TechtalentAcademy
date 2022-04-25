@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Glutenfree</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="container">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><h1>Gotta be Glutenfree</h1></a></li>
+                <li><a href="cupcakes.html"><h2>Cupcakes</h2></a></li>
+                <li><a href="cookies.html"><h2>Cookies</a></h2></li>
+                <li><a href="contact.html"><h2>Contact us</h2></a></li>
+
+            </ul>
+        </nav>
+    </header> 
+    
+    <main>
+       <div><p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo cum recusandae saepe quia, modi illum velit tenetur neque optio voluptatem 
+            expedita natus voluptas dolore aperiam at, cumque eos harum beatae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nihil 
+            ipsum iusto eos ad nisi unde possimus tempore quae eaque commodi mollitia, aut est deserunt, quasi illum exercitationem dolor reprehenderit!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo cum recusandae saepe quia, modi illum velit tenetur neque optio voluptatem 
+            expedita natus voluptas dolore aperiam at, cumque eos harum beatae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nihil 
+            ipsum iusto eos ad nisi unde possimus tempore quae eaque commodi mollitia, aut est deserunt, quasi illum exercitationem dolor reprehenderit!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo cum recusandae saepe quia, modi illum velit tenetur neque optio voluptatem 
+            expedita natus voluptas dolore aperiam at, cumque eos harum beatae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nihil 
+            ipsum iusto eos ad nisi unde possimus tempore quae eaque commodi mollitia, aut est deserunt, quasi illum exercitationem dolor reprehenderit!</p>
+        </div>
+                                            <!--added div around table and a class, to attempt a new bg in css-->
+        <div class="orderform"> <!--I started with the table and wrapped the other elements in, to get a structured grid layout-->
+            <form action="/order.html" method="post">
+                <table>
+                    <tr>
+                        <td><img src="img/chochip.jpg" height="65%" width="65%" alt="choc chip cookie"><br>
+                            <label for="amountchocchip">Milk Chocolate Chip</label><br>
+                            <input type="number" name="amountchocchip" id="amountchocchip" step="1" placeholder="How many?">
+                        </td>
+
+                        <td><img src="img/whitechochip.jpg" height="65%" width="65%" alt="white choc chip"><br>
+                            <label for="amountwhitechocchip">White Chocolate Chip</label><br>
+                            <input type="number" name="amountwhitechip" id="amountwhitechocchip" step="1" placeholder="How many?">
+                        </td>
+
+                        <td><img src="img/doublechocchip.jpg" height="65%" width="65%" alt="Double choc chip"><br>
+                            <label for="amountdoublechocchip">Double Chocolate Chip</label><br>
+                            <input type="number" name="doublechocchip" id="amountdoublechocchip" step="1" placeholder="How many?">
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td><img src="img/orange.jpg" height="65%" width="65%" alt="choc orange cookie"><br>
+                            <label for="amountchocorange">Choc Orange Cookie</label><br>
+                            <input type="number" name="amountchocorange" id="amountchocorange" step="1" placeholder="How many?">
+                        </td>
+                                <!--added a lil extra white space to make things clearer-->
+                        <td><img src="img/peanut.jpg" height="65%" width="65%" alt="Peanut Butter Cookie"><br> 
+                            <label for="amountpeanut">Peanut Butter Cookie</label><br>
+                            <input type="number" name="amountpeanut" id="amountpeanut" step="1" placeholder="How many?">
+                        </td>
+
+                        <td><img src="img/cranberry.jpg" height="65%" width="65%" alt="Choc and Cranberry Cookie"><br> 
+                            <label for="amountcranberry">Dark Chocolate and Cranberry Cookie</label><br>
+                            <input type="number" name="amountcranberry" id="amountcranberry" step="1" placeholder="How many?">
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td><img src="img/redvelvet.jpg" height="65%" width="65%" alt="red velvet cookie"><br> 
+                            <label for="amountredvelvet">Red Velvet Cookie</label><br>
+                            <input type="number" name="amountredvelvet" id="amountredvelvet" step="1" placeholder="How many?">
+                        </td>
+
+                        <td><img src="img/funfetti.jpg" height="65%" width="65%" alt="funfetti cookie"><br> 
+                            <label for="amountfunfetti">Funfetti Cookie</label><br>
+                            <input type="number" name="amountfunfetti" id="amountfunfetti" step="1" placeholder="How many?">
+                        </td>
+
+                        <td><img src="img/rainbow.jpg" height="65%" width="65%" alt="rainbow cookie"><br>
+                            <label for="amountrainbow">Rainbow Cookie</label><br>
+                            <input type="number" name="amountrainbow" id="amountrainbow" step="1" placeholder="How many?">
+                        </td>
+
+                    </tr>
+                </table>
+
+                <section class="packaging">
+                    <label for="packaging">What type of packaging?</label>
+                    <br><br>
+                    <div class="radio">  
+                        <div ><label for="single"class="labels">Singular</label></div>
+                         <input type="radio" name="packaging"  id="singular" >
+                    </div>
+        
+                    <div class="radio">
+                      <div><label for="multi">Multiple</label></div>
+                      <input type="radio" name="packaging"  id="multiple" >
+                    </div>
+                </section>
+
+                <section class="submit">
+                    <button class="button" type="submit">Submit</button>
+                </section>
+
+            </form>
+        </div>
+    </main>
+    <footer>
+        <h2>Company Name</h2><h3>Place:Location</h3><h1>contacts phone contacts</h1>
+    </footer>
+</body>
+</html>
