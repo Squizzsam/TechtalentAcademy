@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dots and Scribbles Blogsite</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1> Dots and Scribbles</h1>
+    </header>
+
+    <div class="row"><!--holds two columns together in a single div, using ws3 school for inspo and support trying to better understand css-->
+      <main class="leftcolumn" id="left">
+        <article class="card" id="firstentry">
+          <h2>Wanting to spraypaint the table in the Garden</h2>
+          <h5>Sam</h5>
+          <p>All I want to do is forget all my homework and all the other diy jobs I need to get done
+          and spraypaint my old garden table.<br>
+          I can't help but imagine the sheer fun of getting spraypaint everywhere and thinking I'm Banksy, whilst turning my tired bistro table
+          into a lilo and stitch piece of art!</p>
+        </article>
+        <article class="card" id="second">
+          <h2>Painting with Watercolours</h2>
+          <h5>Squizz</h5>
+          <p>Really need to get a case for my watercolours, how fun would it be to go painting wildlife in the woods.</p>
+        </article>
+
+        <article class="card" id="new">
+
+        </article>
+
+        <div class="form" id="editor">
+          <form onsubmit="return make_blog()" id=blogger>
+            <section>
+              <label for="blogtitle">Title:</label>
+              <input type="text" id="blogtitle" name="blogtitle" placeholder="whats this blog entry about?" required>
+            </section>
+            <section>
+              <label for="author">Author:</label>
+              <input type="text" id="author" name="author" placeholder="your name" required >
+            </section>
+            <section>
+              <label for="blog">Blog Entry:</label>
+              <textarea id="blog"name="blog" rows="8" cols="80"></textarea>
+            </section>
+            <div class="center">
+              <input type="submit" name="postblog" value="Submit Form">
+            </div>
+          </form>
+
+        </div>
+
+
+      </main>
+
+
+
+
+      <nav class=rightcolumn>
+        <div class="navcard">
+          <h3>Navigation</h3>
+          <ul>
+            <a href="/about.html"><h4>Contact</h4></a>
+            <a href="/index.html"><h4>Blog</h4></a>
+          </ul>
+        </div>
+
+        <div class="navcard">
+          <h3>Change Mode</h3>
+
+              <div class="center">
+                <button type="submit" onclick="mode()" id="mode submit" name="mode_submit">Change Mode</button>
+              </div>
+
+        </div>
+            </form>
+      </nav>
+
+
+
+
+
+    </div>
+
+    <div>
+
+
+
+    </div>
+    <footer>
+    </footer>
+
+  </body>
+</html>
